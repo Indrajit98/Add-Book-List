@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box;
+}
+
+/*javaScript css*/
+.success,.error{
+    color: wheat;
+    padding: 5px;
+    margin: 5px 0 15px 0;
+}
+.success{
+    background-color: green;
+}
+.error{
+    background-color: red;
+}
+h3{
+    text-align: center;
+    padding-top: 20px;
+}
+h3::after{
+    content: "";
+    display: block;
+    height: 2px;
+    background: #888;
+    width: 120px;
+    margin: auto;
+    margin-top: 2px;
+}
+.container{
+    border: 1px solid #333;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom:40px;
+}
